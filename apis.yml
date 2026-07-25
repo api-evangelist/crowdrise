@@ -1,8 +1,24 @@
 aid: crowdrise
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crowdrise.png
 name: CrowdRise
-description: CrowdRise is a company surfaced as a portfolio company of union-square-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: CrowdRise was an online fundraising platform for charities, nonprofits, and personal causes,
+  founded around 2010 by Edward Norton and Robert Wolfe. It let individuals, event participants, and
+  organizations create fundraising pages, run peer-to-peer campaigns, and collect donations for good.
+  CrowdRise was acquired by GoFundMe in 2017 and subsequently merged into the GoFundMe platform; the
+  crowdrise.com domain now 301-redirects to gofundme.com/c/crowdrise. This profile originated as a
+  Union Square Ventures portfolio lead; no independent developer portal, documented API, SDKs, or
+  discovery surface remains, so the record is retained for provenance only.
 url: https://raw.githubusercontent.com/api-evangelist/crowdrise/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +26,21 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: gofundme
+x-acquired-year: 2017
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Crowdfunding
+- Fundraising
+- Nonprofit
+- Charity
+- Donations
+- Payments
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/crowdrise-domain-security.yml
 - type: Website
   url: https://crowdrise.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
