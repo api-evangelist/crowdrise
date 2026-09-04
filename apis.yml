@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://crowdrise.com', status: 301, note: 'declared website redirects to https://www.gofundme.com:443/c/crowdrise — a different registrable domain (crowdrise.com -> gofundme.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crowdrise.png
 name: CrowdRise
 description: CrowdRise was an online fundraising platform for charities, nonprofits, and personal causes,
